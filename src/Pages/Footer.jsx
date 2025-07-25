@@ -67,7 +67,7 @@ const Footer = ()=> {
               
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com/DhvaniChokshi19" 
+                  onClick={() => window.open('https://www.github.com/DhvaniChokshi19', '_blank')} 
                   className="bg-gray-100 hover:bg-gray-200 p-4 rounded-lg transition-colors duration-200 group"
                   aria-label="GitHub"
                 >
@@ -75,7 +75,7 @@ const Footer = ()=> {
                 </a>
                 
                 <a 
-                  href="https://www.linkedin.com/in/dhvanichokshi19/" 
+                  onClick={() => window.open('https://www.linkedin.com/in/dhvanichokshi19/', '_blank')}
                   className="bg-gray-100 hover:bg-blue-100 p-4 rounded-lg transition-colors duration-200 group"
                   aria-label="LinkedIn"
                 >
