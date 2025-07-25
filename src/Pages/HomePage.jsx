@@ -75,7 +75,7 @@ const HomePage = () => {
                   Connect on LinkedIn
                 </button>
                 <button
-                onClick={()=> windows.open('https://drive.google.com/file/d/1psaJvYCzraLO8RyV8AMLWmNSLAL7_5pz/view?usp=sharing','_blank')}
+                onClick={()=> window.open('https://drive.google.com/file/d/1psaJvYCzraLO8RyV8AMLWmNSLAL7_5pz/view?usp=sharing','_blank')}
                  className="px-3 py-3 bg-gray-800/20 backdrop-blur-sm border border-gray-600/30 rounded-lg text-gray-100 hover:bg-gray-800/30 transition-all duration-300 flex items-center gap-2">
                 <Download size={20} />
                 Download Resume
