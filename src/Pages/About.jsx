@@ -1,5 +1,6 @@
 import React from 'react';
 import TiltedCard from '../../ReactBits/TiltedCard/TiltedCard';
+import Profilephoto from './../assets/profile2.jpg';
 import { GraduationCap, Laptop } from 'lucide-react';
 const AboutStats = () => {
   return (
@@ -60,7 +61,7 @@ const About = () => {
           {/* Left Column - Who I Am */}
           <div className="lg:col-span-1">
           <TiltedCard
-  imageSrc="src/assets/profile2.jpg"
+  imageSrc ={Profilephoto}
   altText="Dhvani Chokshi"
   captionText="Dhvani Chokshi"
   containerHeight="500px"
