@@ -75,7 +75,7 @@ const Footer = ()=> {
                 </a>
                 
                 <a 
-                  href="www.linkedin.com/in/dhvanichokshi19" 
+                  href="https://www.linkedin.com/in/dhvanichokshi19/" 
                   className="bg-gray-100 hover:bg-blue-100 p-4 rounded-lg transition-colors duration-200 group"
                   aria-label="LinkedIn"
                 >

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Briefcase, Code, Brain, Users, Lightbulb, Zap, Download } from 'lucide-react';
+import { Mail, Briefcase, Code, Brain, Users, Lightbulb, Zap, Download, Linkedin } from 'lucide-react';
 import Iridescence from './../../ReactBits/Iridescence/Iridescence.jsx';
 import SplitText from './../../ReactBits/SplitText/SplitText.jsx';
 import RotatingText from './../../ReactBits/RotatingText/RotatingText.jsx';
@@ -71,7 +71,7 @@ const HomePage = () => {
                 <button
                 onClick={() => window.open('https://www.linkedin.com/in/dhvanichokshi19/', '_blank') } 
                 className="px-2 py-4 bg-blue-600/10 backdrop-blur-sm border border-blue-400/30 rounded-lg text-white hover:bg-blue-600/30 transition-all duration-300 flex items-center gap-2">
-                <img src="src/assets/linkedin-svgrepo-com.svg" alt="LinkedIn" className="w-5 h-5" />
+                <Linkedin size={20} />
                   Connect on LinkedIn
                 </button>
                 <button
